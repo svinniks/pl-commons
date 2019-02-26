@@ -14,4 +14,5 @@
     limitations under the License.
 */
 
-CREATE OR REPLACE TYPE t_numbers IS TABLE OF NUMBER
+CREATE OR REPLACE TYPE t_numbers FORCE IS 
+   TABLE OF NUMBER

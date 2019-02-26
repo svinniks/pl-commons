@@ -14,4 +14,5 @@
     limitations under the License.
 */
 
-CREATE OR REPLACE TYPE t_varchars IS TABLE OF VARCHAR2(32767)
+CREATE OR REPLACE TYPE t_varchars FORCE 
+    IS TABLE OF VARCHAR2(32767)

@@ -14,4 +14,5 @@
     limitations under the License.
 */
 
-CREATE OR REPLACE TYPE t_dates IS TABLE OF DATE
+CREATE OR REPLACE TYPE t_dates FORCE IS 
+    TABLE OF DATE
